@@ -7,21 +7,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="header padding">
+    <div class="header flex padding header-hero-color">
         <div>Header Logo</div>
-        <ul>
+        <ul class="header-links flex header-links-font-color">
             <li>header link one</li>
             <li>header link two</li>
             <li>header link three</li>
         </ul>
     </div>
-    <div class="hero padding">
-        <div class="hero-content">
-            <div>This website is awesome</div>
+    <div class="hero flex padding header-hero-color">
+        <div class="hero-content flex">
+            <div class="hero-content-heading flex">This website is awesome</div>
+            <div class="hero-content-text flex">
+                This website has some subtext that goes here under the main title. 
+                It's smaller font and the color is lower contrast.
+            </div>
+            <div class="hero-content-button flex">Sign up</div>
         </div>
-        <div class="hero-placeholder">
+        <div class="hero-placeholder flex">
             this is a placeholder for an image
         </div>
     </div>
+    <div class="info flex">
+        <div class="info-header flex">Some random information.</div>
+        <div class="info-content flex"></div> 
+    </div>
+    <div class="quote flex">#</div>
+    <div class="action flex"></div>
+    <div class="footer header-hero-color flex">Copyright</div>
 </body>
 </html>
